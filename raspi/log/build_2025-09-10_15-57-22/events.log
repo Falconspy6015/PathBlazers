@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000369] (navigator) JobQueued: {'identifier': 'navigator', 'dependencies': OrderedDict()}
+[0.000722] (navigator) JobStarted: {'identifier': 'navigator'}
+[0.099689] (-) TimerEvent: {}
+[0.199994] (-) TimerEvent: {}
+[0.300313] (-) TimerEvent: {}
+[0.400714] (-) TimerEvent: {}
+[0.501048] (-) TimerEvent: {}
+[0.601327] (-) TimerEvent: {}
+[0.701617] (-) TimerEvent: {}
+[0.801890] (-) TimerEvent: {}
+[0.902170] (-) TimerEvent: {}
+[1.002479] (-) TimerEvent: {}
+[1.093426] (navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/pi/raspi/build/navigator/build'], 'cwd': '/home/pi/raspi/build/navigator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '10.242.234.36 42470 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/raspi/navigator', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/pi/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/raspi/build/navigator', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.242.234.36 42470 10.242.234.168 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.102567] (-) TimerEvent: {}
+[1.202890] (-) TimerEvent: {}
+[1.303197] (-) TimerEvent: {}
+[1.403482] (-) TimerEvent: {}
+[1.464358] (navigator) StdoutLine: {'line': b'running develop\n'}
+[1.503582] (-) TimerEvent: {}
+[1.603867] (-) TimerEvent: {}
+[1.685031] (navigator) StdoutLine: {'line': b'Removing /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator.egg-link (link to .)\n'}
+[1.704008] (-) TimerEvent: {}
+[1.782421] (navigator) CommandEnded: {'returncode': 0}
+[1.783673] (navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/navigator', 'build', '--build-base', '/home/pi/raspi/build/navigator/build', 'install', '--record', '/home/pi/raspi/build/navigator/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/pi/raspi/navigator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '10.242.234.36 42470 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi/raspi/navigator', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'PATH': '/home/pi/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/raspi/build/navigator', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.242.234.36 42470 10.242.234.168 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.804095] (-) TimerEvent: {}
+[1.904429] (-) TimerEvent: {}
+[2.004732] (-) TimerEvent: {}
+[2.105014] (-) TimerEvent: {}
+[2.110247] (navigator) StdoutLine: {'line': b'running egg_info\n'}
+[2.131371] (navigator) StdoutLine: {'line': b'writing ../build/navigator/navigator.egg-info/PKG-INFO\n'}
+[2.131774] (navigator) StdoutLine: {'line': b'writing dependency_links to ../build/navigator/navigator.egg-info/dependency_links.txt\n'}
+[2.132778] (navigator) StdoutLine: {'line': b'writing entry points to ../build/navigator/navigator.egg-info/entry_points.txt\n'}
+[2.133410] (navigator) StdoutLine: {'line': b'writing requirements to ../build/navigator/navigator.egg-info/requires.txt\n'}
+[2.134123] (navigator) StdoutLine: {'line': b'writing top-level names to ../build/navigator/navigator.egg-info/top_level.txt\n'}
+[2.180548] (navigator) StdoutLine: {'line': b"reading manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'\n"}
+[2.181667] (navigator) StdoutLine: {'line': b"writing manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'\n"}
+[2.181900] (navigator) StdoutLine: {'line': b'running build\n'}
+[2.182024] (navigator) StdoutLine: {'line': b'running build_py\n'}
+[2.183956] (navigator) StdoutLine: {'line': b'copying navigator/start_lidar.py -> /home/pi/raspi/build/navigator/build/lib/navigator\n'}
+[2.184220] (navigator) StdoutLine: {'line': b'copying navigator/run_all.py -> /home/pi/raspi/build/navigator/build/lib/navigator\n'}
+[2.184839] (navigator) StdoutLine: {'line': b'running install\n'}
+[2.194196] (navigator) StdoutLine: {'line': b'running install_lib\n'}
+[2.205101] (-) TimerEvent: {}
+[2.216770] (navigator) StdoutLine: {'line': b'creating /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.216998] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/inv_kin.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.217777] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/move_rear_wheels_old2.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.218403] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/joy_to_vel.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.219006] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/move_front_wheels.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.219653] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/start_lidar.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.219802] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/move_front_wheels_old2.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.220378] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/run_all.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.220535] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/__init__.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.220657] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/rviz_launch.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.221235] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/move_rear_wheels.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.221881] (navigator) StdoutLine: {'line': b'copying /home/pi/raspi/build/navigator/build/lib/navigator/wheel_odometry_launch.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator\n'}
+[2.223118] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/inv_kin.py to inv_kin.cpython-312.pyc\n'}
+[2.224979] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_rear_wheels_old2.py to move_rear_wheels_old2.cpython-312.pyc\n'}
+[2.226417] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/joy_to_vel.py to joy_to_vel.cpython-312.pyc\n'}
+[2.227141] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_front_wheels.py to move_front_wheels.cpython-312.pyc\n'}
+[2.228853] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/start_lidar.py to start_lidar.cpython-312.pyc\n'}
+[2.229366] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_front_wheels_old2.py to move_front_wheels_old2.cpython-312.pyc\n'}
+[2.230853] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/run_all.py to run_all.cpython-312.pyc\n'}
+[2.231264] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/__init__.py to __init__.cpython-312.pyc\n'}
+[2.231519] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/rviz_launch.py to rviz_launch.cpython-312.pyc\n'}
+[2.231971] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_rear_wheels.py to move_rear_wheels.cpython-312.pyc\n'}
+[2.233677] (navigator) StdoutLine: {'line': b'byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/wheel_odometry_launch.py to wheel_odometry_launch.cpython-312.pyc\n'}
+[2.234201] (navigator) StdoutLine: {'line': b'running install_data\n'}
+[2.234366] (navigator) StdoutLine: {'line': b'copying resource/navigator -> /home/pi/raspi/install/navigator/share/ament_index/resource_index/packages\n'}
+[2.234589] (navigator) StdoutLine: {'line': b'copying package.xml -> /home/pi/raspi/install/navigator/share/navigator\n'}
+[2.234753] (navigator) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.259400] (navigator) StdoutLine: {'line': b'Copying ../build/navigator/navigator.egg-info to /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info\n'}
+[2.261205] (navigator) StdoutLine: {'line': b'running install_scripts\n'}
+[2.305199] (-) TimerEvent: {}
+[2.405482] (-) TimerEvent: {}
+[2.415324] (navigator) StdoutLine: {'line': b'Installing front script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.415635] (navigator) StdoutLine: {'line': b'Installing inv_kin script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.416546] (navigator) StdoutLine: {'line': b'Installing joy script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.419139] (navigator) StdoutLine: {'line': b'Installing lidar script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.419309] (navigator) StdoutLine: {'line': b'Installing rear script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.420292] (navigator) StdoutLine: {'line': b'Installing viz script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.422017] (navigator) StdoutLine: {'line': b"writing list of installed files to '/home/pi/raspi/build/navigator/install.log'\n"}
+[2.505878] (-) TimerEvent: {}
+[2.510257] (navigator) CommandEnded: {'returncode': 0}
+[2.533398] (navigator) JobEnded: {'identifier': 'navigator', 'rc': 0}
+[2.534825] (-) EventReactorShutdown: {}

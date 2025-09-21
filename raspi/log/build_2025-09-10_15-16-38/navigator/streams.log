@@ -1,0 +1,65 @@
+[1.491s] Invoking command in '/home/pi/raspi/navigator': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/pi/raspi/build/navigator/build install --record /home/pi/raspi/build/navigator/install.log --single-version-externally-managed install_data
+[1.810s] running egg_info
+[1.810s] creating ../build/navigator/navigator.egg-info
+[1.832s] writing ../build/navigator/navigator.egg-info/PKG-INFO
+[1.832s] writing dependency_links to ../build/navigator/navigator.egg-info/dependency_links.txt
+[1.832s] writing entry points to ../build/navigator/navigator.egg-info/entry_points.txt
+[1.832s] writing requirements to ../build/navigator/navigator.egg-info/requires.txt
+[1.832s] writing top-level names to ../build/navigator/navigator.egg-info/top_level.txt
+[1.833s] writing manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.876s] reading manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.877s] writing manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.877s] running build
+[1.878s] running build_py
+[1.878s] creating /home/pi/raspi/build/navigator/build
+[1.878s] creating /home/pi/raspi/build/navigator/build/lib
+[1.878s] creating /home/pi/raspi/build/navigator/build/lib/navigator
+[1.878s] copying navigator/inv_kin.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.879s] copying navigator/move_rear_wheels_old2.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.880s] copying navigator/joy_to_vel.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.880s] copying navigator/move_front_wheels.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.881s] copying navigator/move_front_wheels_old2.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.881s] copying navigator/run_all.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.881s] copying navigator/__init__.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.881s] copying navigator/rviz_launch.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.882s] copying navigator/move_rear_wheels.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.882s] copying navigator/wheel_odometry_launch.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[1.883s] running install
+[1.892s] running install_lib
+[1.915s] creating /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.915s] copying /home/pi/raspi/build/navigator/build/lib/navigator/inv_kin.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.915s] copying /home/pi/raspi/build/navigator/build/lib/navigator/move_rear_wheels_old2.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.915s] copying /home/pi/raspi/build/navigator/build/lib/navigator/joy_to_vel.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/move_front_wheels.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/move_front_wheels_old2.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/run_all.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/__init__.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/rviz_launch.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/move_rear_wheels.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.916s] copying /home/pi/raspi/build/navigator/build/lib/navigator/wheel_odometry_launch.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[1.917s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/inv_kin.py to inv_kin.cpython-312.pyc
+[1.919s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_rear_wheels_old2.py to move_rear_wheels_old2.cpython-312.pyc
+[1.920s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/joy_to_vel.py to joy_to_vel.cpython-312.pyc
+[1.921s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_front_wheels.py to move_front_wheels.cpython-312.pyc
+[1.923s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_front_wheels_old2.py to move_front_wheels_old2.cpython-312.pyc
+[1.924s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/run_all.py to run_all.cpython-312.pyc
+[1.924s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/__init__.py to __init__.cpython-312.pyc
+[1.925s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/rviz_launch.py to rviz_launch.cpython-312.pyc
+[1.925s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_rear_wheels.py to move_rear_wheels.cpython-312.pyc
+[1.927s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/wheel_odometry_launch.py to wheel_odometry_launch.cpython-312.pyc
+[1.927s] running install_data
+[1.927s] creating /home/pi/raspi/install/navigator/share/ament_index
+[1.927s] creating /home/pi/raspi/install/navigator/share/ament_index/resource_index
+[1.927s] creating /home/pi/raspi/install/navigator/share/ament_index/resource_index/packages
+[1.928s] copying resource/navigator -> /home/pi/raspi/install/navigator/share/ament_index/resource_index/packages
+[1.928s] copying package.xml -> /home/pi/raspi/install/navigator/share/navigator
+[1.928s] running install_egg_info
+[1.952s] Copying ../build/navigator/navigator.egg-info to /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info
+[1.953s] running install_scripts
+[2.104s] Installing front script to /home/pi/raspi/install/navigator/lib/navigator
+[2.104s] Installing inv_kin script to /home/pi/raspi/install/navigator/lib/navigator
+[2.105s] Installing joy script to /home/pi/raspi/install/navigator/lib/navigator
+[2.105s] Installing rear script to /home/pi/raspi/install/navigator/lib/navigator
+[2.105s] Installing viz script to /home/pi/raspi/install/navigator/lib/navigator
+[2.105s] writing list of installed files to '/home/pi/raspi/build/navigator/install.log'
+[2.192s] Invoked command in '/home/pi/raspi/navigator' returned '0': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/pi/raspi/build/navigator/build install --record /home/pi/raspi/build/navigator/install.log --single-version-externally-managed install_data

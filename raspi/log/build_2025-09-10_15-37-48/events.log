@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (navigator) JobQueued: {'identifier': 'navigator', 'dependencies': OrderedDict()}
+[0.000775] (navigator) JobStarted: {'identifier': 'navigator'}
+[0.099636] (-) TimerEvent: {}
+[0.199947] (-) TimerEvent: {}
+[0.300219] (-) TimerEvent: {}
+[0.400621] (-) TimerEvent: {}
+[0.500948] (-) TimerEvent: {}
+[0.601206] (-) TimerEvent: {}
+[0.701427] (-) TimerEvent: {}
+[0.801661] (-) TimerEvent: {}
+[0.901894] (-) TimerEvent: {}
+[1.002144] (-) TimerEvent: {}
+[1.102375] (-) TimerEvent: {}
+[1.202586] (-) TimerEvent: {}
+[1.302814] (-) TimerEvent: {}
+[1.403026] (-) TimerEvent: {}
+[1.503260] (-) TimerEvent: {}
+[1.603640] (-) TimerEvent: {}
+[1.621688] (navigator) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/pi/raspi/build/navigator/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/pi/raspi/build/navigator', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '10.242.234.36 60436 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/home/pi/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pi/.local/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/pi/raspi/build/navigator', 'LC_ALL': 'C.UTF-8', 'SSH_CONNECTION': '10.242.234.36 60436 10.242.234.168 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.703708] (-) TimerEvent: {}
+[1.804012] (-) TimerEvent: {}
+[1.904247] (-) TimerEvent: {}
+[2.004477] (-) TimerEvent: {}
+[2.019938] (navigator) StdoutLine: {'line': b'running develop\n'}
+[2.104528] (-) TimerEvent: {}
+[2.204755] (-) TimerEvent: {}
+[2.237904] (navigator) StdoutLine: {'line': b'running egg_info\n'}
+[2.260481] (navigator) StdoutLine: {'line': b'writing navigator.egg-info/PKG-INFO\n'}
+[2.261692] (navigator) StdoutLine: {'line': b'writing dependency_links to navigator.egg-info/dependency_links.txt\n'}
+[2.262531] (navigator) StdoutLine: {'line': b'writing entry points to navigator.egg-info/entry_points.txt\n'}
+[2.263148] (navigator) StdoutLine: {'line': b'writing requirements to navigator.egg-info/requires.txt\n'}
+[2.264108] (navigator) StdoutLine: {'line': b'writing top-level names to navigator.egg-info/top_level.txt\n'}
+[2.304809] (-) TimerEvent: {}
+[2.310317] (navigator) StdoutLine: {'line': b"reading manifest file 'navigator.egg-info/SOURCES.txt'\n"}
+[2.312121] (navigator) StdoutLine: {'line': b"writing manifest file 'navigator.egg-info/SOURCES.txt'\n"}
+[2.337457] (navigator) StdoutLine: {'line': b'running build_ext\n'}
+[2.338478] (navigator) StdoutLine: {'line': b'Creating /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator.egg-link (link to .)\n'}
+[2.339439] (navigator) StdoutLine: {'line': b'Installing front script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.339729] (navigator) StdoutLine: {'line': b'Installing inv_kin script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.339955] (navigator) StdoutLine: {'line': b'Installing joy script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.340130] (navigator) StdoutLine: {'line': b'Installing rear script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.340294] (navigator) StdoutLine: {'line': b'Installing viz script to /home/pi/raspi/install/navigator/lib/navigator\n'}
+[2.340571] (navigator) StdoutLine: {'line': b'\n'}
+[2.340652] (navigator) StdoutLine: {'line': b'Installed /home/pi/raspi/build/navigator\n'}
+[2.340774] (navigator) StdoutLine: {'line': b'running symlink_data\n'}
+[2.340885] (navigator) StdoutLine: {'line': b'symbolically linking /home/pi/raspi/build/navigator/resource/navigator -> /home/pi/raspi/install/navigator/share/ament_index/resource_index/packages\n'}
+[2.341035] (navigator) StdoutLine: {'line': b'symbolically linking /home/pi/raspi/build/navigator/package.xml -> /home/pi/raspi/install/navigator/share/navigator\n'}
+[2.404893] (-) TimerEvent: {}
+[2.440288] (navigator) CommandEnded: {'returncode': 0}
+[2.480991] (navigator) JobEnded: {'identifier': 'navigator', 'rc': 0}
+[2.482057] (-) EventReactorShutdown: {}

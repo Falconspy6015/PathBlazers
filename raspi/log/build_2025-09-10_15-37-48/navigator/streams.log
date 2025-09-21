@@ -1,0 +1,23 @@
+[1.623s] Invoking command in '/home/pi/raspi/build/navigator': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/raspi/build/navigator/build --no-deps symlink_data --force
+[2.019s] running develop
+[2.237s] running egg_info
+[2.259s] writing navigator.egg-info/PKG-INFO
+[2.261s] writing dependency_links to navigator.egg-info/dependency_links.txt
+[2.261s] writing entry points to navigator.egg-info/entry_points.txt
+[2.262s] writing requirements to navigator.egg-info/requires.txt
+[2.263s] writing top-level names to navigator.egg-info/top_level.txt
+[2.309s] reading manifest file 'navigator.egg-info/SOURCES.txt'
+[2.311s] writing manifest file 'navigator.egg-info/SOURCES.txt'
+[2.337s] running build_ext
+[2.337s] Creating /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator.egg-link (link to .)
+[2.338s] Installing front script to /home/pi/raspi/install/navigator/lib/navigator
+[2.339s] Installing inv_kin script to /home/pi/raspi/install/navigator/lib/navigator
+[2.339s] Installing joy script to /home/pi/raspi/install/navigator/lib/navigator
+[2.339s] Installing rear script to /home/pi/raspi/install/navigator/lib/navigator
+[2.339s] Installing viz script to /home/pi/raspi/install/navigator/lib/navigator
+[2.340s] 
+[2.340s] Installed /home/pi/raspi/build/navigator
+[2.340s] running symlink_data
+[2.340s] symbolically linking /home/pi/raspi/build/navigator/resource/navigator -> /home/pi/raspi/install/navigator/share/ament_index/resource_index/packages
+[2.340s] symbolically linking /home/pi/raspi/build/navigator/package.xml -> /home/pi/raspi/install/navigator/share/navigator
+[2.440s] Invoked command in '/home/pi/raspi/build/navigator' returned '0': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pi/raspi/build/navigator/build --no-deps symlink_data --force

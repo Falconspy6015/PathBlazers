@@ -1,0 +1,25 @@
+[1.443s] Invoking command in '/home/pi/raspi/navigator': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/pi/raspi/build/navigator/build install --record /home/pi/raspi/build/navigator/install.log --single-version-externally-managed install_data
+[1.809s] running egg_info
+[1.836s] writing ../build/navigator/navigator.egg-info/PKG-INFO
+[1.861s] writing dependency_links to ../build/navigator/navigator.egg-info/dependency_links.txt
+[1.862s] writing entry points to ../build/navigator/navigator.egg-info/entry_points.txt
+[1.862s] writing requirements to ../build/navigator/navigator.egg-info/requires.txt
+[1.863s] writing top-level names to ../build/navigator/navigator.egg-info/top_level.txt
+[1.920s] reading manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.921s] writing manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.922s] running build
+[1.922s] running build_py
+[1.924s] running install
+[1.933s] running install_lib
+[1.962s] running install_data
+[1.962s] running install_egg_info
+[1.991s] removing '/home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info' (and everything under it)
+[1.991s] Copying ../build/navigator/navigator.egg-info to /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info
+[1.993s] running install_scripts
+[2.179s] Installing front script to /home/pi/raspi/install/navigator/lib/navigator
+[2.180s] Installing inv_kin script to /home/pi/raspi/install/navigator/lib/navigator
+[2.180s] Installing joy script to /home/pi/raspi/install/navigator/lib/navigator
+[2.180s] Installing rear script to /home/pi/raspi/install/navigator/lib/navigator
+[2.180s] Installing viz script to /home/pi/raspi/install/navigator/lib/navigator
+[2.181s] writing list of installed files to '/home/pi/raspi/build/navigator/install.log'
+[2.254s] Invoked command in '/home/pi/raspi/navigator' returned '0': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/pi/raspi/build/navigator/build install --record /home/pi/raspi/build/navigator/install.log --single-version-externally-managed install_data

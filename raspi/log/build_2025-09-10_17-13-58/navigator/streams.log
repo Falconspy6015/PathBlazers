@@ -1,0 +1,31 @@
+[1.959s] Invoking command in '/home/pi/raspi/navigator': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/pi/raspi/build/navigator/build install --record /home/pi/raspi/build/navigator/install.log --single-version-externally-managed install_data
+[2.322s] running egg_info
+[2.348s] writing ../build/navigator/navigator.egg-info/PKG-INFO
+[2.349s] writing dependency_links to ../build/navigator/navigator.egg-info/dependency_links.txt
+[2.350s] writing entry points to ../build/navigator/navigator.egg-info/entry_points.txt
+[2.352s] writing requirements to ../build/navigator/navigator.egg-info/requires.txt
+[2.353s] writing top-level names to ../build/navigator/navigator.egg-info/top_level.txt
+[2.410s] reading manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[2.412s] writing manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[2.412s] running build
+[2.412s] running build_py
+[2.415s] copying navigator/move_front_wheels.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[2.415s] copying navigator/move_rear_wheels.py -> /home/pi/raspi/build/navigator/build/lib/navigator
+[2.416s] running install
+[2.425s] running install_lib
+[2.453s] copying /home/pi/raspi/build/navigator/build/lib/navigator/move_front_wheels.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[2.454s] copying /home/pi/raspi/build/navigator/build/lib/navigator/move_rear_wheels.py -> /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator
+[2.454s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_front_wheels.py to move_front_wheels.cpython-312.pyc
+[2.457s] byte-compiling /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator/move_rear_wheels.py to move_rear_wheels.cpython-312.pyc
+[2.458s] running install_data
+[2.459s] running install_egg_info
+[2.487s] removing '/home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info' (and everything under it)
+[2.488s] Copying ../build/navigator/navigator.egg-info to /home/pi/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info
+[2.489s] running install_scripts
+[2.674s] Installing front script to /home/pi/raspi/install/navigator/lib/navigator
+[2.715s] Installing inv_kin script to /home/pi/raspi/install/navigator/lib/navigator
+[2.717s] Installing joy script to /home/pi/raspi/install/navigator/lib/navigator
+[2.718s] Installing rear script to /home/pi/raspi/install/navigator/lib/navigator
+[2.719s] Installing viz script to /home/pi/raspi/install/navigator/lib/navigator
+[2.721s] writing list of installed files to '/home/pi/raspi/build/navigator/install.log'
+[2.813s] Invoked command in '/home/pi/raspi/navigator' returned '0': PYTHONPATH=/home/pi/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/pi/raspi/build/navigator/build install --record /home/pi/raspi/build/navigator/install.log --single-version-externally-managed install_data
