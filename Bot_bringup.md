@@ -1,4 +1,25 @@
 
+## Collaboration Protocols:
+
+- Do not modify / delete /add any document/script to the raspi memory without affirmation.
+## Safety Protocols:
+
+- Always ensure the bot is in a safe position before turning it on. 
+- Ensure the emergency stop button `the red one below the green switch` is used to stop the bot at times of emergencies
+- Ensure no ROS node or joystick or keyboard of any device is actively sending cmd_vel data to the bot before turning it on.
+
+## Turning on the bot:
+
+Ensure the raspi is connected to the usb hub and the usb hub is connected to both the motor controllers before turning on the bot.
+
+Use the green switch to turn on the bot.
+
+### Debugging steps:
+
+if the raspi doesnt glow a green continuous bright light :
+- The battery voltage could have dropped significantly.
+- The raspi has booting issues , ensure the sd card is inserted properly
+
 ## Step 1:
 
 Connect all relevant devices to 
@@ -46,9 +67,15 @@ source install/setup.sh
 ros2 launch navigator/navigator/run_all.py
 ```
 
+## Step 5: Teleoperation control
 
-## Step 5: Joystick control
+#### Keyboard:
 
+Run the following command on the device whose keyboard you want to teleop with
+
+```
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+```
 
 1) Run this on the device that has the Bluetooth controller attached for the Joystick
 
@@ -151,6 +178,66 @@ ensure you have the following package installed to run rtabmap
 
 ```
 sudo apt install ros2-jazzy-rtabmap_ros
+```
+
+and also ensure depthcamera is running : Step 6
+
+To launch rtabmap:
+
+```
+ros2 launch depthai_ros_driver rtabmap.launch.py
+```
+
+## Step 9: To run ekf node:
+
+ensure you have robot_localisation package installed
+
+```
+sudo apt install ros2-jazzy-robot_localisation
+```
+
+configure your odom sources in the ekf.yaml file before running.
+
+To edit the yaml file:
+
+```
+sudo gedit /opt/ros/jazzy/share/robot_localisation/params/ekf.yaml
+```
+
+To run ekf node:
+
+```
+ros2 launch robot_localisation ekf.launch.py
+```
+
+
+
+
+#### Swapping imu parameters (optional):
+- The imu topic is generated from the camera node of depth cam and the acceleration_x might be Gravitational acceleration 9.8ish while slam might be expecting acceleration_z to be that.
+
+Here is a small script that you can save and run on your personal computer to swap the imu topic and publish /imu_swapped
+
+```
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import Imu
+
+class ImuAxisSwap(Node):
+    def __init__(self):
+        super().__init__('imu_axis_swap')
+        self.sub = self.create_subscription(Imu, '/imu', self.callback, 10)
+        self.pub = self.create_publisher(Imu, 'imu_swapped', 10)
+
+    def callback(self, msg):
+        # Swap X <-> Z
+        msg.linear_acceleration.x, msg.linear_acceleration.z = msg.linear_acceleration.z, msg.linear_acceleration.x
+        msg.angular_velocity.x, msg.angular_velocity.z = msg.angular_velocity.z, msg.angular_velocity.x
+        self.pub.publish(msg)
+
+rclpy.init()
+rclpy.spin(ImuAxisSwap())
+
 ```
 
 
