@@ -1,0 +1,25 @@
+[1.157s] Invoking command in '/home/sachin/Desktop/PathBlazers/raspi/navigator': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sachin/Desktop/PathBlazers/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/sachin/Desktop/PathBlazers/raspi/build/navigator/build install --record /home/sachin/Desktop/PathBlazers/raspi/build/navigator/install.log --single-version-externally-managed install_data
+[1.559s] running egg_info
+[1.590s] writing ../build/navigator/navigator.egg-info/PKG-INFO
+[1.590s] writing dependency_links to ../build/navigator/navigator.egg-info/dependency_links.txt
+[1.591s] writing entry points to ../build/navigator/navigator.egg-info/entry_points.txt
+[1.591s] writing requirements to ../build/navigator/navigator.egg-info/requires.txt
+[1.591s] writing top-level names to ../build/navigator/navigator.egg-info/top_level.txt
+[1.656s] reading manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.657s] writing manifest file '../build/navigator/navigator.egg-info/SOURCES.txt'
+[1.657s] running build
+[1.657s] running build_py
+[1.658s] running install
+[1.664s] running install_lib
+[1.697s] running install_data
+[1.697s] running install_egg_info
+[1.733s] removing '/home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info' (and everything under it)
+[1.733s] Copying ../build/navigator/navigator.egg-info to /home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/python3.12/site-packages/navigator-0.0.0-py3.12.egg-info
+[1.734s] running install_scripts
+[1.933s] Installing front script to /home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/navigator
+[1.933s] Installing inv_kin script to /home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/navigator
+[1.933s] Installing joy script to /home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/navigator
+[1.933s] Installing rear script to /home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/navigator
+[1.933s] Installing viz script to /home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/navigator
+[1.934s] writing list of installed files to '/home/sachin/Desktop/PathBlazers/raspi/build/navigator/install.log'
+[1.968s] Invoked command in '/home/sachin/Desktop/PathBlazers/raspi/navigator' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sachin/Desktop/PathBlazers/raspi/build/navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sachin/Desktop/PathBlazers/raspi/install/navigator/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/navigator build --build-base /home/sachin/Desktop/PathBlazers/raspi/build/navigator/build install --record /home/sachin/Desktop/PathBlazers/raspi/build/navigator/install.log --single-version-externally-managed install_data

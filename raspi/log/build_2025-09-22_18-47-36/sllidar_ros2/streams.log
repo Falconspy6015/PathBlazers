@@ -1,0 +1,6 @@
+[0.324s] Invoking command in '/home/sachin/Desktop/PathBlazers/raspi/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/Desktop/PathBlazers/raspi/build/sllidar_ros2 -- -j8 -l8
+[0.358s] [0mCMake Error: The current CMakeCache.txt directory /home/sachin/Desktop/PathBlazers/raspi/build/sllidar_ros2/CMakeCache.txt is different than the directory /home/pi/raspi/build/sllidar_ros2 where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.376s] [0mCMake Error: The source directory "/home/pi/raspi/sllidar_ros2" does not exist.
+[0.377s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.380s] gmake: *** [Makefile:740: cmake_check_build_system] Error 1
+[0.382s] Invoked command in '/home/sachin/Desktop/PathBlazers/raspi/build/sllidar_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sachin/Desktop/PathBlazers/raspi/build/sllidar_ros2 -- -j8 -l8
